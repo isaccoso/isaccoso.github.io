@@ -1,0 +1,7 @@
+# Credenziali e file locali — non versionare MAI
+locale/
+*.local
+.env
+.env.*
+.DS_Store
+Thumbs.db
