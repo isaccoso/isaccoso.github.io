@@ -1,0 +1,11 @@
+{
+  "name": "Gianluca Iunco",
+  "short_name": "G. Iunco",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#1d4ed8",
+  "background_color": "#0b0c10",
+  "display": "browser"
+}

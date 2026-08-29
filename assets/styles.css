@@ -246,18 +246,42 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
 /* =========================================================
    Hero
    ========================================================= */
+:root                      { --hero-bg: url("hero-bg-light.webp"); }
+:root[data-theme="dark"]   { --hero-bg: url("hero-bg-dark.webp"); }
+:root[data-theme="light"]  { --hero-bg: url("hero-bg-light.webp"); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --hero-bg: url("hero-bg-dark.webp"); }
+}
+
 .hero {
   position: relative;
   overflow: hidden;
   padding-block: clamp(var(--space-8), 12vw, var(--space-9)) clamp(var(--space-7), 9vw, var(--space-8));
+  background-image:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--bg) 30%, transparent) 0%,
+      color-mix(in srgb, var(--bg) 62%, transparent) 60%,
+      var(--bg) 100%),
+    linear-gradient(90deg,
+      var(--bg) 0%,
+      color-mix(in srgb, var(--bg) 60%, transparent) 42%,
+      color-mix(in srgb, var(--bg) 15%, transparent) 100%),
+    var(--hero-bg);
+  background-repeat: no-repeat;
+  background-position: center, center, right center;
+  background-size: cover;
 }
-.hero::before {
+.hero::before { /* bagliore d'accento, tenue perché ora c'è l'immagine */
   content: "";
-  position: absolute; inset: 0 0 auto 0; height: 480px; z-index: 0;
-  background: radial-gradient(72% 60% at 18% 0%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 72%);
+  position: absolute; inset: 0 0 auto 0; height: 420px; z-index: 0;
+  background: radial-gradient(60% 55% at 15% 0%, color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%);
   pointer-events: none;
 }
 .hero-inner { position: relative; z-index: 1; }
+
+@media (prefers-reduced-data: reduce) {
+  .hero { background-image: none; }
+}
 .hero-kicker {
   text-transform: uppercase;
   letter-spacing: .14em;
@@ -506,6 +530,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
 @media print {
   .site-header, .theme-toggle, .nav-toggle, .hero-actions,
   .hero::before, #esperienza .section-lead { display: none !important; }
+  .hero { background-image: none !important; }
   * { box-shadow: none !important; }
   .section { padding-block: var(--space-4); }
   .card, .about-side { border: 1px solid #bbb; break-inside: avoid; }
