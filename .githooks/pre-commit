@@ -1,0 +1,14 @@
+#!/bin/sh
+# Cache-busting per GitHub Pages.
+# GitHub Pages serve assets/* con Cache-Control: max-age=600 e non permette
+# di cambiare gli header. Per evitare che un deploy carichi l'HTML nuovo con
+# CSS/JS vecchi, ad ogni commit che tocca i file front-end riscriviamo il
+# parametro ?v= sugli asset in index.html con un timestamp fresco.
+
+changed=$(git diff --cached --name-only)
+echo "$changed" | grep -Eq '^(index\.html|assets/styles\.css|assets/script\.js)$' || exit 0
+
+ver=$(date +%s)
+tmp=$(mktemp)
+sed -E "s#(assets/(styles\.css|script\.js))\?v=[0-9]+#\1?v=$ver#g" index.html > "$tmp" && mv "$tmp" index.html
+git add index.html
