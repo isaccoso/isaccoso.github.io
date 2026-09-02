@@ -1,5 +1,14 @@
-// Anno corrente nel footer
-document.getElementById('year').textContent = String(new Date().getFullYear());
+// Anno nel footer: "2026" durante il 2026, poi "2026-<anno corrente>"
+(function () {
+  var startYear = 2026;
+  var currentYear = new Date().getFullYear();
+  var el = document.getElementById('year');
+  if (el) {
+    el.textContent = currentYear <= startYear
+      ? String(startYear)
+      : startYear + '-' + currentYear;
+  }
+})();
 
 // -------- Toggle tema chiaro/scuro --------
 (function () {
