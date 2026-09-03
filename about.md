@@ -71,6 +71,15 @@ attività di laboratorio.
 
 ## Progetti
 
+### Diramo — Web Tools
+Raccolta di calcolatori online gratuiti per professionisti e partite IVA: IVA, bollo
+in fattura, ricarico e margine, tariffa oraria e prezzo di progetto, ciascuno con
+spiegazione del metodo ed esempi pratici. Sito realizzato con Astro, senza
+registrazione: si inseriscono i numeri e si ottiene subito il risultato.
+
+- Tecnologie: Astro
+- Web: https://diramo.app
+
 ### Scientifico — WebSite + Social
 Blog di divulgazione scientifica realizzato su WordPress: setup del tema,
 organizzazione dei contenuti in categorie tematiche (spazio, biologia, neuroscienze,
