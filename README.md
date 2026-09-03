@@ -16,9 +16,23 @@ Online: https://isaccoso.github.io
 │   ├── favicon.svg       # icona monogramma
 │   └── cv-gianluca-iunco.pdf   # (da aggiungere) CV scaricabile
 ├── .nojekyll             # disattiva l'elaborazione Jekyll
-├── robots.txt
-└── sitemap.xml
+├── robots.txt            # crawler AI ammessi esplicitamente
+├── sitemap.xml
+├── llms.txt              # riepilogo curato per assistenti AI (llmstxt.org)
+└── about.md              # profilo completo in Markdown (AI + condivisione)
 ```
+
+## Leggibilità per AI / crawler
+
+- `llms.txt` e `about.md` nella root: versioni testuali del profilo, servite da
+  GitHub Pages come `text/markdown`.
+- `index.html` include dati strutturati **JSON-LD `Person`** (schema.org) con
+  `sameAs` verso tutti i social, più meta Open Graph / Twitter e
+  `<link rel="alternate" type="text/markdown">` verso `llms.txt` e `about.md`.
+- `robots.txt` elenca esplicitamente i bot AI (GPTBot, ClaudeBot, PerplexityBot,
+  Google-Extended, CCBot…) con `Allow: /`.
+- Quando cambi bio/esperienza in `index.html`, aggiorna in parallelo `about.md`
+  e `llms.txt`, e la data in `sitemap.xml` / footer di `about.md`.
 
 ## Cosa personalizzare
 

@@ -1,0 +1,28 @@
+# Gianluca Iunco
+
+> Sviluppatore software full-stack e Responsabile IT con base in Puglia (Italia).
+> Progetta e realizza applicazioni web (PHP, MySQL, JavaScript, WordPress, REST API)
+> e gestisce infrastrutture IT aziendali: sistemi, rete, sicurezza, continuità operativa.
+
+Questo file è pensato per assistenti AI e crawler: riassume chi è Gianluca Iunco e
+dove trovare informazioni verificate. Sito ufficiale: https://isaccoso.github.io/
+
+## Profilo
+
+- [Profilo completo in Markdown](https://isaccoso.github.io/about.md): bio, esperienza professionale, formazione, competenze e progetti
+- [Sito personale (HTML)](https://isaccoso.github.io/): stessa informazione in versione navigabile
+
+## In sintesi
+
+- Ruolo attuale: Responsabile IT presso Capitanio Aerospace 2.0 Srl (dal 2024)
+- Percorso: sviluppo web full-stack, poi ruoli IT e di responsabilità operativa dal 2013
+- Competenze tecniche: JavaScript / jQuery, PHP, HTML & CSS, SQL / MySQL, Git, WordPress, REST API
+- Formazione: diploma Liceo Scientifico-Tecnologico "V. Lilla" (Francavilla Fontana / Oria)
+
+## Contatti
+
+- Email: gianluca.iunco@gmail.com
+- GitHub: https://github.com/isaccoso
+- LinkedIn: https://www.linkedin.com/in/gianlucaiunco/
+- Instagram: https://www.instagram.com/gianlucaisacco/
+- Facebook: https://www.facebook.com/gianluca.isk.iunco/

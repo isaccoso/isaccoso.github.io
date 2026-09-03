@@ -4,14 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Gianluca Iunco — Sviluppatore software</title>
-  <meta name="description" content="Portfolio di Gianluca Iunco, sviluppatore software. Progetti, esperienza e contatti." />
+  <meta name="description" content="Portfolio di Gianluca Iunco, sviluppatore software full-stack e Responsabile IT. Progetti, esperienza e contatti." />
   <meta name="author" content="Gianluca Iunco" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="keywords" content="Gianluca Iunco, sviluppatore software, full stack, Responsabile IT, PHP, MySQL, JavaScript, WordPress, REST API" />
 
   <!-- Open Graph / social -->
   <meta property="og:title" content="Gianluca Iunco — Sviluppatore software" />
-  <meta property="og:description" content="Portfolio: progetti, esperienza e contatti." />
-  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Sviluppatore full-stack e Responsabile IT. Progetti, esperienza e contatti." />
+  <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://isaccoso.github.io/" />
+  <meta property="og:site_name" content="Gianluca Iunco" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:image" content="https://isaccoso.github.io/assets/hero-bg-light.webp" />
+  <meta property="profile:first_name" content="Gianluca" />
+  <meta property="profile:last_name" content="Iunco" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gianluca Iunco — Sviluppatore software" />
+  <meta name="twitter:description" content="Sviluppatore full-stack e Responsabile IT. Progetti, esperienza e contatti." />
+  <meta name="twitter:image" content="https://isaccoso.github.io/assets/hero-bg-light.webp" />
   <meta name="theme-color" content="#1d4ed8" />
 
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
@@ -19,7 +30,10 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="manifest" href="site.webmanifest" />
   <link rel="canonical" href="https://isaccoso.github.io/" />
-  <link rel="stylesheet" href="assets/styles.css?v=1788341949" />
+  <!-- Versioni Markdown per assistenti AI / crawler -->
+  <link rel="alternate" type="text/markdown" href="https://isaccoso.github.io/llms.txt" title="Riepilogo per LLM (llms.txt)" />
+  <link rel="alternate" type="text/markdown" href="https://isaccoso.github.io/about.md" title="Profilo completo in Markdown" />
+  <link rel="stylesheet" href="assets/styles.css?v=1788437359" />
 
   <!-- Applica il tema salvato prima del render per evitare il flash -->
   <script>
@@ -31,6 +45,42 @@
         }
       } catch (e) {}
     })();
+  </script>
+
+  <!-- Dati strutturati schema.org: profilo leggibile da motori e assistenti AI -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://isaccoso.github.io/#gianluca-iunco",
+    "name": "Gianluca Iunco",
+    "givenName": "Gianluca",
+    "familyName": "Iunco",
+    "url": "https://isaccoso.github.io/",
+    "email": "mailto:gianluca.iunco@gmail.com",
+    "jobTitle": ["Responsabile IT", "Sviluppatore software full-stack"],
+    "description": "Sviluppatore software full-stack e Responsabile IT. Progetta e realizza applicazioni web e gestisce infrastrutture IT aziendali.",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Capitanio Aerospace 2.0 Srl"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Liceo Scientifico-Tecnologico \"V. Lilla\" (Francavilla Fontana / Oria)"
+    },
+    "knowsAbout": [
+      "JavaScript", "jQuery", "PHP", "HTML", "CSS", "SQL", "MySQL", "Git",
+      "WordPress", "REST API", "Sviluppo web full-stack",
+      "Gestione infrastrutture IT", "Sicurezza informatica"
+    ],
+    "knowsLanguage": ["it", "en"],
+    "sameAs": [
+      "https://github.com/isaccoso",
+      "https://www.linkedin.com/in/gianlucaiunco/",
+      "https://www.instagram.com/gianlucaisacco/",
+      "https://www.facebook.com/gianluca.isk.iunco/"
+    ]
+  }
   </script>
 </head>
 <body>
@@ -74,9 +124,7 @@
       <div class="container hero-inner">
         <p class="hero-kicker">Ciao, sono</p>
         <h1 class="hero-title">Gianluca Iunco</h1>
-        <!-- TODO: personalizza il ruolo -->
         <p class="hero-role">Consulenze Informatiche Hardware &amp; Software &middot; Sviluppatore Full Stack</p>
-        <!-- TODO: 1-2 frasi di presentazione -->
         <p class="hero-pitch">
           Progetto e sviluppo applicazioni basate su tecnologie web, con attenzione
           alle necessità di chi le utilizza. Qui trovi una selezione dei miei lavori
@@ -85,7 +133,6 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="#progetti">Vedi i progetti</a>
           <a class="btn btn-ghost" href="#contatti">Contattami</a>
-          <!-- TODO: aggiungi il file assets/cv-gianluca-iunco.pdf -->
           <a class="btn btn-ghost" href="assets/cv-gianluca-iunco.pdf" download>Scarica il CV</a>
         </div>
       </div>
@@ -97,7 +144,6 @@
         <h2 class="section-title">Chi sono</h2>
         <div class="about-grid">
           <div class="about-text">
-            <!-- TODO: sostituisci con la tua bio -->
             <p>
               Sono uno sviluppatore software con esperienza nella realizzazione
               di applicazioni web full-stack. Mi occupo di analisi, progettazione
@@ -111,7 +157,6 @@
           </div>
           <aside class="about-side">
             <h3 class="about-side-title">Competenze</h3>
-            <!-- TODO: aggiorna l'elenco delle tecnologie -->
             <ul class="chips">
               <li>JavaScript / jQuery</li>
               <li>PHP</li>
@@ -199,7 +244,6 @@
         <h2 class="section-title">Esperienza &amp; formazione</h2>
 
         <ol class="timeline">
-          <!-- I testi sono una bozza generata: verifica e adatta liberamente -->
           <li class="timeline-item">
             <div class="timeline-period">2024 — oggi</div>
             <div class="timeline-body">
@@ -270,7 +314,6 @@
         </ol>
 
         <p class="section-lead">
-          <!-- TODO: aggiungi assets/cv-gianluca-iunco.pdf -->
           <a class="btn btn-ghost" href="assets/cv-gianluca-iunco.pdf" download>Scarica il CV completo (PDF)</a>
         </p>
       </div>
@@ -282,7 +325,6 @@
         <h2 class="section-title">Contatti</h2>
         <p class="section-lead">Per collaborazioni o domande, scrivimi.</p>
         <ul class="contact-grid">
-          <!-- TODO: verifica/aggiorna i recapiti -->
           <li>
             <a class="contact-card" href="mailto:gianluca.iunco@gmail.com">
               <span class="contact-card-icon" aria-hidden="true">
@@ -360,6 +402,6 @@
     </div>
   </footer>
 
-  <script src="assets/script.js?v=1788341949" defer></script>
+  <script src="assets/script.js?v=1788437359" defer></script>
 </body>
 </html>
