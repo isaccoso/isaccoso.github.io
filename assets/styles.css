@@ -403,8 +403,13 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
   padding-top: var(--space-3);
   border-top: 1px solid var(--border);
 }
-.card-links a { font-size: var(--fs-sm); font-weight: 600; color: var(--accent); text-decoration: none; }
-.card-links a:hover { text-decoration: underline; }
+.card-links a {
+  display: flex; align-items: center;
+  font-size: var(--fs-sm); font-weight: 600; color: var(--accent); text-decoration: none;
+  transition: color .18s ease, transform .18s ease;
+}
+.card-links a:hover { color: var(--accent-hover); transform: translateY(-1px); }
+.card-links svg { width: 22px; height: 22px; }
 
 /* =========================================================
    Timeline esperienza
