@@ -458,6 +458,23 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
 .timeline-body p { color: var(--text-muted); max-width: 60ch; }
 
 /* =========================================================
+   Supporto
+   ========================================================= */
+.kofi-link {
+  display: inline-block;
+  max-width: 480px;
+  width: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.kofi-image { display: block; max-width: 100%; height: auto; border-radius: var(--radius-lg); }
+@media (hover: hover) {
+  .kofi-link:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+}
+
+/* =========================================================
    Contatti
    ========================================================= */
 .contact-grid {
