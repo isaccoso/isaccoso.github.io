@@ -129,6 +129,7 @@ p { text-wrap: pretty; }
 
 .section { padding-block: clamp(var(--space-8), 10vw, var(--space-9)); }
 .section-alt { background: var(--bg-alt); }
+.section-divider { border-top: 1px solid var(--border); }
 section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
 
 .section-title { font-size: var(--fs-xl); margin-bottom: var(--space-4); }
@@ -460,8 +461,6 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
 /* =========================================================
    Supporto
    ========================================================= */
-.section-divider { border-top: 1px solid var(--border); }
-
 .support-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(260px, 1fr);
