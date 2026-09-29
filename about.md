@@ -105,9 +105,9 @@ App companion della web radio, pubblicata su Google Play: streaming live del
 palinsesto, informazioni sul brano in riproduzione e collegamento ai canali social
 della community.
 
-- Tecnologie: PHP, MySQL, HTML, CSS
+- Tecnologie: Ionic/React, Kotlin
 - Android: https://play.google.com/store/apps/details?id=it.iskode.coolzonewebradio
 
 ---
 
-*Fonte canonica: https://isaccoso.github.io/ — ultimo aggiornamento 2026-09-03.*
+*Fonte canonica: https://isaccoso.github.io/ — versione inglese: https://isaccoso.github.io/en/about.md — ultimo aggiornamento 2026-09-29.*

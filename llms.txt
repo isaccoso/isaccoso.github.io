@@ -11,6 +11,7 @@ dove trovare informazioni verificate. Sito ufficiale: https://isaccoso.github.io
 
 - [Profilo completo in Markdown](https://isaccoso.github.io/about.md): bio, esperienza professionale, formazione, competenze e progetti
 - [Sito personale (HTML)](https://isaccoso.github.io/): stessa informazione in versione navigabile
+- [English version](https://isaccoso.github.io/en/llms.txt): profilo e sito anche in inglese (https://isaccoso.github.io/en/)
 
 ## In sintesi
 

@@ -1,6 +1,7 @@
 # Sito personale di Gianluca Iunco — https://isaccoso.github.io/
 # Riepilogo per assistenti AI: https://isaccoso.github.io/llms.txt
 # Profilo in Markdown:          https://isaccoso.github.io/about.md
+# Versione inglese:             https://isaccoso.github.io/en/
 
 User-agent: *
 Allow: /

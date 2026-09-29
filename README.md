@@ -9,7 +9,11 @@ Online: https://isaccoso.github.io
 
 ```
 .
-├── index.html            # pagina unica del sito
+├── index.html            # pagina del sito (italiano)
+├── en/
+│   ├── index.html        # versione inglese della pagina
+│   ├── about.md          # profilo in Markdown (inglese)
+│   └── llms.txt          # riepilogo per AI (inglese)
 ├── assets/
 │   ├── styles.css        # stili + tema chiaro/scuro
 │   ├── script.js         # toggle tema, menu mobile, anno footer
@@ -31,8 +35,9 @@ Online: https://isaccoso.github.io
   `<link rel="alternate" type="text/markdown">` verso `llms.txt` e `about.md`.
 - `robots.txt` elenca esplicitamente i bot AI (GPTBot, ClaudeBot, PerplexityBot,
   Google-Extended, CCBot…) con `Allow: /`.
-- Quando cambi bio/esperienza in `index.html`, aggiorna in parallelo `about.md`
-  e `llms.txt`, e la data in `sitemap.xml` / footer di `about.md`.
+- Quando cambi bio/esperienza in `index.html`, aggiorna in parallelo `about.md`,
+  `llms.txt` e le versioni inglesi in `en/` (`en/index.html`, `en/about.md`,
+  `en/llms.txt`), e la data in `sitemap.xml` / footer di `about.md`.
 
 ## Cosa personalizzare
 
