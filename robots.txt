@@ -1,55 +1,5 @@
-# Sito personale di Gianluca Iunco — https://isaccoso.github.io/
-# Riepilogo per assistenti AI: https://isaccoso.github.io/llms.txt
-# Profilo in Markdown:          https://isaccoso.github.io/about.md
-# Versione inglese:             https://isaccoso.github.io/en/
+# Il sito si è trasferito su https://www.gianlucaiunco.com/
+# This site has moved to https://www.gianlucaiunco.com/
 
 User-agent: *
 Allow: /
-
-# Crawler AI esplicitamente ammessi (indicizzazione e addestramento consentiti)
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Amazonbot
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /
-
-Sitemap: https://isaccoso.github.io/sitemap.xml

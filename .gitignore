@@ -1,5 +1,6 @@
 # Credenziali e file locali — non versionare MAI
 locale/
+CLAUDE.local.md
 *.local
 .env
 .env.*

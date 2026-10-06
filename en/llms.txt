@@ -1,31 +1,3 @@
 # Gianluca Iunco
 
-> Full-stack software developer and IT Manager based in Apulia (Italy).
-> Designs and builds web applications (PHP, MySQL, JavaScript, WordPress, REST API)
-> and manages corporate IT infrastructure: systems, network, security, business continuity.
-
-This file is meant for AI assistants and crawlers: it summarises who Gianluca Iunco is
-and where to find verified information. Official website: https://isaccoso.github.io/en/
-(Italian version: https://isaccoso.github.io/)
-
-## Profile
-
-- [Full profile in Markdown](https://isaccoso.github.io/en/about.md): bio, work experience, education, skills and projects
-- [Personal website (HTML)](https://isaccoso.github.io/en/): the same information in browsable form
-- [Italian version of this file](https://isaccoso.github.io/llms.txt)
-
-## Summary
-
-- Current role: IT Manager at Capitanio Aerospace 2.0 Srl (since 2024)
-- Background: full-stack web development, then IT and operational management roles since 2013
-- Technical skills: JavaScript / jQuery, PHP, HTML & CSS, SQL / MySQL, Git, WordPress, REST API
-- Education: high school diploma, Liceo Scientifico-Tecnologico "V. Lilla" (Francavilla Fontana / Oria)
-- Languages: Italian, English
-
-## Contacts
-
-- Email: gianluca.iunco@gmail.com
-- GitHub: https://github.com/isaccoso
-- LinkedIn: https://www.linkedin.com/in/gianlucaiunco/
-- Instagram: https://www.instagram.com/gianlucaisacco/
-- Facebook: https://www.facebook.com/gianluca.isk.iunco/
+This site has moved: https://www.gianlucaiunco.com/en/llms.txt
